@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Kuala Lumpur",
+        "answers": 
+            {
+                "A": "Vietnam",
+                "B": "Malaysia",
+                "C": "Sweden",
+                "D": "Austria"
+            }
+    },
+    {
+        "question": "Hanoi",
+        "answers": 
+            {
+                "A": "Austria",
+                "B": "Sweden",
+                "C": "Malaysia",
+                "D": "Vietnam"
+            }
+    },
+    {
+        "question": "Vienna",
+        "answers": 
+            {
+                "A": "Malaysia",
+                "B": "Austria",
+                "C": "Vietnam",
+                "D": "Sweden"
+            }
+    },
+    {
+        "question": "Stockholm",
+        "answers": 
+            {
+                "A": "Sweden",
+                "B": "Vietnam",
+                "C": "Austria",
+                "D": "Malaysia"
+            }
+    }
+  ]
