@@ -1,6 +1,6 @@
 [
     {
-        "question": "Kuala Lumpur",
+        "capital": "Kuala Lumpur",
         "answers": 
             {
                 "A": "Vietnam",
@@ -10,7 +10,17 @@
             }
     },
     {
-        "question": "Hanoi",
+        "country": "Finland",
+        "answers": 
+            {
+                "A": "Vietnam",
+                "B": "Finland",
+                "C": "Sweden",
+                "D": "Austria"
+            }
+    },
+    {
+        "capital": "Hanoi",
         "answers": 
             {
                 "A": "Austria",
@@ -20,7 +30,17 @@
             }
     },
     {
-        "question": "Vienna",
+        "country": "Vietnam",
+        "answers": 
+            {
+                "A": "Sweden",
+                "B": "Austria",
+                "C": "Finland",
+                "D": "Vietnam"
+            }
+    },
+    {
+        "capital": "Vienna",
         "answers": 
             {
                 "A": "Malaysia",
@@ -30,13 +50,33 @@
             }
     },
     {
-        "question": "Stockholm",
+        "country": "Sweden",
+        "answers": 
+            {
+                "A": "Austria",
+                "B": "Vietnam",
+                "C": "Sweden",
+                "D": "Finland"
+            }
+    },
+    {
+        "capital": "Stockholm",
         "answers": 
             {
                 "A": "Sweden",
                 "B": "Vietnam",
                 "C": "Austria",
                 "D": "Malaysia"
+            }
+    },
+    {
+        "country": "Austria",
+        "answers": 
+            {
+                "A": "Finland",
+                "B": "Austria",
+                "C": "Sweden",
+                "D": "Vietnam"
             }
     }
   ]
