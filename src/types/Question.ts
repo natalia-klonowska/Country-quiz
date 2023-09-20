@@ -1,6 +1,7 @@
 import { AnswersType } from "./Answers";
 
 export type QuestionType = {
-    question: string,
+    capital?: string,
+    country?: string,
     answers : AnswersType,
   };
