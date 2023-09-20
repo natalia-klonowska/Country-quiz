@@ -4,6 +4,8 @@ import { QuestionType } from '../../types/Question'
 import { AnswersType } from '../../types/Answers';
 import { CapitalDataType } from '../../types/CapitalData';
 import { getCapitalData } from '../../api/capitalData';
+import correctIcon from '../../icons/correct.svg';
+import wrongIcon from '../../icons/wrong.svg';
 
 interface QuestionProps {
   question: QuestionType,
@@ -65,6 +67,8 @@ export const Question: React.FC<QuestionProps> = ({question, setScore, setQuesti
           <button className={`Answer ${isSelectedClass} ${isCorrectClass} ${isWrongClass}`} disabled={disabled} onClick={() => handleSelect(answerId, answer)} key={answerId}>
             <div className='Answer__number'>{answerId}</div>
             <div className='Answer__text'>{answer}</div>
+            <img className={`Answer__icon ${isCorrectClass}`} src={correctIcon} alt="icon for correct answer" />
+            <img className={`Answer__icon ${isWrongClass}`} src={wrongIcon} alt="icon for wrong answer" />
           </button>
           )
         })}

@@ -31,10 +31,13 @@ function App() {
   return (
     <div className="App">
       <div className='App__container'>
-        {isQuestion && (
-          <img className='App__icon' src={questionIcon} alt="Image of a man and a globe" />
-        )}
-        <h1 className='App__title'>Country quiz</h1>
+        <header className='App__header'>
+          <h1 className='App__title'>Country quiz</h1>
+          {isQuestion && (
+            <img className='App__icon' src={questionIcon} alt="Image of a man and a globe" />
+          )}
+        </header>
+        
         {isQuestion 
           ? (<Question 
               question={questions[questionNumber]}
